@@ -9,7 +9,7 @@ export async function getAllNFTsFromTransactions(transactionsResponse, address) 
   const myUnspentOutputs = transactions.flatMap(txn => txn.outputs).filter(output => output.address === address && !output.spentTransactionId)
   const assetsWithTxns = myUnspentOutputs.flatMap(o => o.assets.map(a => ({ ...a, txn: o })))
   const nfts = assetsWithTxns.filter(asset => asset.amount === 1)
-  const ergolib = await import('ergo-lib-wasm-nodejs')
+  const ergolib = await import('ergo-lib-' + 'wasm-browser')
   const decodedNfts = nfts.map(asset => ({
     ...asset,
     description: decodeRegister(ergolib, asset.txn.additionalRegisters['R5'].serializedValue),
