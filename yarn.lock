@@ -4643,6 +4643,11 @@ ergo-lib-wasm-browser@^0.13.3:
   resolved "https://registry.yarnpkg.com/ergo-lib-wasm-browser/-/ergo-lib-wasm-browser-0.13.3.tgz#ca9ad65d4f12729246722405297638ca85978545"
   integrity sha512-wrZ96Rbr3iEiSFvpmjB/H6SmOU6V1QDl8FDqvJ1SYMKKEWwRGMIiSmTGdkJGYv0daxqm7k6emudzuDDKJjVDdA==
 
+ergo-lib-wasm-nodejs@^0.13.3:
+  version "0.13.3"
+  resolved "https://registry.yarnpkg.com/ergo-lib-wasm-nodejs/-/ergo-lib-wasm-nodejs-0.13.3.tgz#90a159f588ab460034afd62ac1382268d0af7e0a"
+  integrity sha512-z/wPJJea/HGubPyG7NYx4xR434NHrt6ZRwfLrN8vYZoSTEFR7XuV5OmfbZOEusR7R/HM6vLQsDoTTyvCJPWGkg==
+
 errno@^0.1.3:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/errno/-/errno-0.1.8.tgz#8bb3e9c7d463be4976ff888f76b4809ebc2e811f"
